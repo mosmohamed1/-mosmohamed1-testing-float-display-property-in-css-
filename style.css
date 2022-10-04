@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+.main-header {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+    margin-bottom: 2px;
+    text-transform: uppercase;  
+    position: fixed;
+    z-index: 3;
+
+    
+}
+.main-header .site-logo img {
+
+width: 100px;
+padding: 20px;
+
+}
+.main-header .site-logo {
+    float: left;
+    /* display: inline-block; */
+    width: 50%;
+
+
+}
+.main-header .navbar {
+    /* float: right; */
+    display: inline-block;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.cover {
+
+    background-image: url(img/cover.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position-y: center;
+    
+}
+.cover .cover-content {
+
+    height: 400px;
+    position: relative;
+    
+}
+.cover .cover-content p {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.section1 {
+
+    text-align: center;
+    padding: 30px 0px;
+    color: black;
+}
+.section1-img {
+
+    display: inline-block;
+    /* width: 150px; */
+
+}
+.section1 img {
+
+    width: 200px;
+    padding: 30px;
+}
+
+.section2 h1{
+
+    text-align: center;
+    padding: 30px 0px;
+}
+.aboutus {
+    padding: 20px;
+    margin: 0% 10%;
+    
+}
+.aboutus-img img{
+    width: 580px;
+display: inline-block;    
+float: left;
+margin: 30px;
+
+}
+.aboutus-text {
+
+text-align: center;
+
+font-size: medium;
+padding: 50px;
+margin: 30px;
+
+}
+.section3 {
+
+    padding-top: 60px;
+}
+.section3 h1 {
+
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.contact-form {
+
+    margin: 10px 80px;
+}
+
+#but {
+    border-radius: 5px;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
